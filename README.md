@@ -13,7 +13,7 @@
 
 ---
 
-## Tools Used 🔧
+## 1. Tools Used 🔧
 - **Virtual Machines:** Kali Linux, Windows 10, Windows Server, Ubuntu (Splunk)
 - **Splunk:** For log analysis and monitoring
 - **Splunk Universal Forwarder:** To forward logs to the Splunk server
@@ -22,14 +22,14 @@
 - **Hydra:** For brute-force attack simulations
 - **Atomic Red Team:** For simulating attack techniques and testing defenses
 
-## 1. Diagram Creation 🖼️
+## 2. Diagram Creation 🖼️
 I started by creating a network diagram to visualize the lab setup.
 
 ![obraz](https://github.com/user-attachments/assets/20c73387-0c7c-4d1c-b0b2-72d719a2c67f)
 
 ---
 
-## 2. Installation of All Virtual Machines ⚙️
+## 3. Installation of All Virtual Machines ⚙️
 ![obraz](https://github.com/user-attachments/assets/83eefbdc-0aa1-4aa9-b5aa-4ec1ff502204)
 
 We have here 4 machines. The first one is Kali Linux which will be used for conducting a brute-force attack.
@@ -39,7 +39,7 @@ The last one is Splunk.
 
 ---
 
-## 3. Setting Up Splunk Server and Sysmon 🔍
+## 4. Setting Up Splunk Server and Sysmon 🔍
 
 1. **Configuring Network on the Splunk Server:**
 Displayed the IP address and adjusted it to match the IP on the diagram.
@@ -139,7 +139,7 @@ Verified that Splunk now recognized two hosts: the target machine and the Active
 
 ---
 
-## 4. Installing and Configuring Active Directory 📜
+## 5. Installing and Configuring Active Directory 📜
 
 1. **Setting Up the Domain:**
 Installed and configured Active Directory, promoted the Domain Controller, and added the Windows PC to the domain.
@@ -183,7 +183,7 @@ Loggin in as a domain user:
 
 ---
 
-## 5. Conducting a Brute Force Attack 🔓🔍
+## 6. Conducting a Brute Force Attack 🔓🔍
 
 1. **Installing Crowbar for Brute-Force Attack (I finally used Hydra as Crowbar didn't work):**
 
@@ -210,7 +210,7 @@ Detected various events in Splunk:
 
 ---
 
-## 6. Installing Atomic Red Team 🧪
+## 7. Installing Atomic Red Team 🧪
 
 1. **Setting Up Atomic Red Team:**
 
