@@ -1,14 +1,15 @@
 # Active Directory Lab 🏢💻
 
 ## Table of Contents
-1. [Tools Used 🔧](#tools-used)
-2. [Diagram Creation 🖼️](#1-diagram-creation)
-3. [Installation of All Virtual Machines ⚙️](#2-installation-of-all-virtual-machines)
-4. [Setting Up Splunk Server and Sysmon 🔍](#3-setting-up-splunk-server-and-sysmon)
-5. [Installing and Configuring Active Directory 📜](#4-installing-and-configuring-active-directory)
-6. [Conducting a Brute Force Attack 🔓🔍](#5-conducting-a-brute-force-attack)
-7. [Installing Atomic Red Team 🧪](#6-installing-atomic-red-team)
-8. [Summary 📝](#summary)
+1. [Tools Used 🔧](#tools-used-)
+2. [Diagram Creation 🖼️](#1-diagram-creation-)
+3. [Installation of All Virtual Machines ⚙️](#2-installation-of-all-virtual-machines-)
+4. [Setting Up Splunk Server and Sysmon 🔍](#3-setting-up-splunk-server-and-sysmon-)
+5. [Installing and Configuring Active Directory 📜](#4-installing-and-configuring-active-directory-)
+6. [Conducting a Brute Force Attack 🔓🔍](#5-conducting-a-brute-force-attack-)
+7. [Installing Atomic Red Team 🧪](#6-installing-atomic-red-team-)
+8. [Summary 📝](#summary-)
+
 
 ---
 
