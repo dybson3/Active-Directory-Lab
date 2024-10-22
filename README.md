@@ -1,5 +1,26 @@
 # Active Directory Lab 🏢💻
 
+## Table of Contents
+1. [Tools Used 🔧](#tools-used)
+2. [Diagram Creation 🖼️](#1-diagram-creation)
+3. [Installation of All Virtual Machines ⚙️](#2-installation-of-all-virtual-machines)
+4. [Setting Up Splunk Server and Sysmon 🔍](#3-setting-up-splunk-server-and-sysmon)
+5. [Installing and Configuring Active Directory 📜](#4-installing-and-configuring-active-directory)
+6. [Conducting a Brute Force Attack 🔓🔍](#5-conducting-a-brute-force-attack)
+7. [Installing Atomic Red Team 🧪](#6-installing-atomic-red-team)
+8. [Summary 📝](#summary)
+
+---
+
+## Tools Used 🔧
+- **Virtual Machines:** Kali Linux, Windows 10, Windows Server, Ubuntu (Splunk)
+- **Splunk:** For log analysis and monitoring
+- **Splunk Universal Forwarder:** To forward logs to the Splunk server
+- **Sysmon:** For capturing Windows system events
+- **Active Directory:** For domain management and user authentication
+- **Hydra:** For brute-force attack simulations
+- **Atomic Red Team:** For simulating attack techniques and testing defenses
+
 ## 1. Diagram Creation 🖼️
 I started by creating a network diagram to visualize the lab setup.
 
@@ -163,7 +184,7 @@ Loggin in as a domain user:
 
 ## 5. Conducting a Brute Force Attack 🔓🔍
 
-1. **Installing Crowbar for Brute-Force Attack:**
+1. **Installing Crowbar for Brute-Force Attack (I finally used Hydra as Crowbar didn't work):**
 
 ![obraz](https://github.com/user-attachments/assets/701ad9f2-7752-4a67-b710-c50bb1f0f299)
 
@@ -191,6 +212,7 @@ Detected various events in Splunk:
 ## 6. Installing Atomic Red Team 🧪
 
 1. **Setting Up Atomic Red Team:**
+
 ![obraz](https://github.com/user-attachments/assets/933f3fa9-4400-42bf-a2b2-647b878d19c5)
 
 Added the `C:` drive to exclusions.
@@ -219,5 +241,6 @@ The events were successfully logged in Splunk.
 
 
 ---
-
-This Markdown version should be ready to use with some extra formatting and emojis for clarity and engagement! 🚀
+## Summary 📝
+The Active Directory Lab setup aimed to simulate a typical enterprise environment, complete with security monitoring using Splunk. The simulated attacks and monitoring configurations provided insights into the detection and prevention of various threats. 🚀
+Project made with help of MYDFIR on YouTube.
