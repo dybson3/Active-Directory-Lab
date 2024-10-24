@@ -1,5 +1,9 @@
 # Active Directory Lab 🏢💻
 
+## Description
+
+The Active Directory Lab project is a cybersecurity simulation designed to mimic a typical enterprise environment for security monitoring and incident response training. This setup includes a network of virtual machines—Kali Linux for offensive testing, Windows 10, Windows Server for Active Directory, and Ubuntu for hosting the Splunk server. Tools like Splunk, Sysmon, Hydra, and Atomic Red Team were used to simulate and detect attacks.
+
 ## Table of Contents
 1. [Tools Used 🔧](#1-tools-used-)
 2. [Diagram Creation 🖼️](#2-diagram-creation-)
